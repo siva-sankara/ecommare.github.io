@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+.container{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./backgrounf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+.col1{
+    margin-top: -14em;
+    width: 30%;
+}
+.c1logo{
+    font-size: medium;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c1logoh1{
+    font-size: 30px;
+}
+.col1-heading span{
+    color: blue;
+    font-size: 60px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col1-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(210, 43, 43);
+}
+.col2{
+    width: 30%; 
+}
+.col3{
+    width: 30%;
+    
+}
+.img1{
+    width: 100%;
+    padding: 10em 0em;
+}
+.txtbox{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: rgb(66, 68, 68);
+}
+.col2h3{
+    text-align: center;
+}
+.c2-h1{
+    color: rgb(246, 16, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+   padding: 1em 2em;
+   color: white;
+   background-color: rgba(87, 85, 235, 0.912);
+   border-radius: 5px;
+   transition: all 0.8s;
+   margin-top: 1em;
+   width: 100%;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+.social-1{
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin-top: 1em;
+    width: 100%;
+    transition: all 1s;
+    color: rgb(83, 40, 235);
+    border-color: rgb(138, 138, 225);
+}
+.social-1:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+.checkbox{
+    margin-top: 1em;
+}
+.links{
+    text-decoration: none;
+    color: blue;
+}
+.last-links{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content:space-between;
+}
+
+
+@media (max-width : 600px){
+    .container{
+        flex-direction: column;
+    }
+    .col1 , .col2{
+        width: 100%;
+    }
+
+    .col1{
+        margin-top: 0;
+    }
+
+    .col3{
+        width: 40%;
+        margin: 0;
+    }
+
+    .img1{
+        padding: 1em;
+    }
+}
